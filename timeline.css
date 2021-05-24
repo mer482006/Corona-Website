@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+header{
+    position:absolute;
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+    display: flex;  
+    align-items: center;  
+    font-family: 'Patrick Hand', cursive;
+    font-size:28px;
+}
+header * {  
+    display: inline;  
+}  
+header li {  
+    margin: 20px; 
+    display:inline-block;
+}  
+header li a {  
+    color:rgb(235, 227, 222);  
+    text-decoration: none ;  
+    display: inline-block;
+}
+.cov_d{
+    font-size:80px;
+    font-family: 'Roboto Slab', serif;;
+    text-align:center;
+    font-weight:bolder;
+}
+body{
+    background: url("covid1.jpg");
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+.c_n{
+    border:3px solid #aeb7d3 ;
+    background-color:#aeb7d3 ;
+    padding-top:none;
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom: 2px;
+    margin:0px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    height:auto;
+    width:510px;
+}
+.content{
+    display:flex;
+    justify-content:space-around;
+    text-align: justify;
+}
+.heading{
+    font-family: 'Capriola', sans-serif;
+    font-size:25px ;
+    color:#0E266A;
+}
+.cont{
+    font-family: 'Capriola', sans-serif;
+    font-size:22px;
+    color:#0E266A;
+}

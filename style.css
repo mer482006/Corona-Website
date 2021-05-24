@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+header{
+    position:absolute;
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+    display: flex;  
+    align-items: center;  
+    font-family: 'Patrick Hand', cursive;
+    font-size:28px;
+}
+header * {  
+    display: inline;  
+}  
+header li {  
+    margin: 20px; 
+    display:inline-block;
+}  
+header li a {  
+    color:#0E266A;  
+    text-decoration: none ;  
+    display: inline-block;
+}
+body{
+    background-image: linear-gradient(#aeb7d3,#0E266A);
+    margin-top: 0px;  
+    padding:0px;  
+    min-height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+.c_n{
+    border:3px solid #aeb7d3 ;
+    background-color:#aeb7d3 ;
+    padding-top:none;
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom: 2px;
+    margin:0px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    height:auto;
+    width:510px;
+}
+.c_n:after{
+     content: ""; 
+     display: inline-block; 
+     width: 100%; 
+}
+.content{
+    display:flex;
+    justify-content:space-evenly;
+}
+.h1{
+    color:#0E266A;
+    text-align:center;
+    font-family: 'Patrick Hand', cursive;
+    font-size:30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+}
+.cn1{
+    color:#0E266A;
+    font-size:25px;
+    padding:2px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
